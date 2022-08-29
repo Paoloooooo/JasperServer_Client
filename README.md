@@ -1,5 +1,5 @@
 # JasperServer_Client
-A Java client source code to interact with Tibco JasperServer through his Rest API. Note that this was made for an Android application, so there could be things referring to the Android environment. It uses only standard Java classes, so there will not be the need to import any library in your project. Before usage you should change the base_url var that contains the URL at which to contact the server, usually, the format is "http(s)://xxx.xxx.xxx.xxx:8080/jasperserver/".
+A Java client to interact with Tibco JasperServer through his Rest API. Note that this was made for an Android application, so there could be things referring to the Android environment. It uses only standard Java classes, so there will not be the need to import any library in your project. Before usage you should change the base_url var that contains the URL at which to contact the server, usually, the format is "http(s)://xxx.xxx.xxx.xxx:8080/jasperserver/".
 # Implemented functions
 <div id="list">It contains a few useful functions:
 <ul>
