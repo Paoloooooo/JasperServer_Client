@@ -310,31 +310,4 @@ public class JasperConnection {
         return true;
     };
 
-    /**
-     *
-     * Report - esperimenti
-     *
-     */
-    private void report() throws IOException {
-
-        String username = "jasperadmin";
-
-        String password = "jasperadmin";
-
-        String sessionId = login(username, password);
-
-        //boolean sessionID=createDirectory("Funzioni",sessionId);
-        //Map<String, String> params = new HashMap<>();
-        //params.put("net.sf.jasperreports.xml.source","/reports/Prova/dati.xml");
-
-        //updateXml("/reports/Prova/xml_nuovo",sessionId);
-
-        //boolean report=generateReport("reports/Prova/main",sessionId);
-
-        //System.out.println("ID:\t"+report);
-        //params.put("folderUri", "/reports");
-        //getResources(params, sessionId);
-
-    }
-
 }
